@@ -73,7 +73,7 @@ if __name__ == '__main__':
     # Model arguments
     parser.add_argument('--name', type=str, default='coformer', choices=['coformer', 'bilstm', 'transformer' ], help='Model name.')
     parser.add_argument('--depth', type=int, default=4, help='Depth (layers) of backbone model.')
-    parser.add_argument('--dim_in', type=int, default=32, help='input embedding dimension')
+    parser.add_argument('--dim_in', type=int, default=64, help='input embedding dimension')
     parser.add_argument('--dim_attn', type=int, default=16, help='attention embedding dimension')
     parser.add_argument('--dim_out', type=int, default=64, help='output embedding dimension')
     parser.add_argument('--n_heads', type=int, default=4, help='number of heads')
